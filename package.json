@@ -1,0 +1,12 @@
+{
+  "name": "close-tabs",
+  "version": "0.0.1",
+  "description": "close all other tabs",
+  "scripts": {
+    "dev": "webextension-toolbox dev chrome",
+    "build": "webextension-toolbox build"
+  },
+  "devDependencies": {
+    "webextension-toolbox": "^3.0.0"
+  }
+}

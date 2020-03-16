@@ -1,0 +1,12 @@
+
+
+#app .menu ul{
+    padding: 15px;
+}
+.menu ul li a{
+font-size: 0.9rem;
+}
+.menu ul li a span{
+    font-size: 0.8rem;
+    opacity: .6;
+}

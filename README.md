@@ -1,6 +1,10 @@
-# close-tabs
 
-close all non active tabs 
+<img src="media/img.png" width="50">
+
+# close-tabs-extension [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+
+
+close all non active tabs in google chrome
 
 ## Install extension manually
 

@@ -5,12 +5,11 @@ var myObject = new Vue({
     data: {message: 'Hello Vue!'},
     methods:{
         closeAll(){
-            console.log("closed...");
+
             var allTabsID=[]
             var currentTabId
             chrome.tabs.getSelected(null, function(tab) {
                 currentTabId=tab.id;
-                console.log(currentTabId);
                 chrome.tabs.query({}, function(tabs){
                     tabs.forEach(tb => {
                         allTabsID.push(tb.id);
@@ -18,9 +17,8 @@ var myObject = new Vue({
                     allTabsID=allTabsID.filter(function(t){
                         return t!==currentTabId
                     })
-                    console.log(allTabsID);
                     chrome.tabs.remove(allTabsID,function(){
-                        console.log("removed");
+         
                     })
                 });
              

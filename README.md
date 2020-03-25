@@ -1,24 +1,11 @@
 # close-tabs
 
-close all other non activa e tabs
+close all non active tabs 
 
-## Install
+## Install extension manually
 
-	$ npm install
+ run  ```npm run build  ``` , go to google chrome extension pages , click on ``` Load unpacked ``` then select the **dist/chrome** folder 
 
-## Development
+## License
 
-    npm run dev chrome
-
-## Build
-
-    npm run build chrome
-
-
-## Environment
-
-The build tool also defines a variable named `process.env.NODE_ENV` in your scripts. 
-
-## Docs
-
-* [webextension-toolbox](https://github.com/HaNdTriX/webextension-toolbox)
+MIT © [Abdelhak Akermi](https://github.com/abakermi)
